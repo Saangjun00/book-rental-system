@@ -8,7 +8,7 @@
 # 2. Team Members (팀원 및 팀 소개)
 | 김상준 | 김민석 | 백민철 |
 |:------:|:------:|:------:|
-| [GitHub](https://github.com/Saangjun00) | [GitHub](https://github.com/MinSeuk00) | [GitHub](https://github.com/nay3on) |
+| https://github.com/Saangjun00 | https://github.com/MinSeuk00 | https://github.com/baekmincheol |
 
 <br/>
 <br/>
