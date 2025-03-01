@@ -68,6 +68,8 @@
 | **대여 관리 페이지(관리자)** | |
 | ![image](https://github.com/user-attachments/assets/9bf57f96-94c2-4b6c-890d-4f337621f14b) | |
 
+---
+
 ## 디렉토리 구조
 ```bash
 │  .gitattributes
