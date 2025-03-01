@@ -1,19 +1,28 @@
-# 1. Project Overview (프로젝트 개요)
-- 프로젝트 이름: 도서 대여 시스템
-- 프로젝트 설명: 도서 대여 및 관리(도서관)
+# 도서 대여 시스템(도서관)
 
-<br/>
-<br/>
+## 👥 팀원 소개
+| 이름 | Github |
+| --- | --- |
+| 김상준 | https://github.com/Saangjun00 |
+| 김민석 | https://github.com/MinSeuk00 |
+| 백민철 | https://github.com/baekmincheol |
 
-# 2. Team Members (팀원 및 팀 소개)
-| 김상준 | 김민석 | 백민철 |
-|:------:|:------:|:------:|
-| https://github.com/Saangjun00 | https://github.com/MinSeuk00 | https://github.com/baekmincheol |
+---
 
-<br/>
-<br/>
+## 기술 스택
 
-# 3. Key Features (주요 기능)
+| 분류 | 활용 기술 및 프레임워크 |
+| ----- | ---- |
+| **Programing** | Java |
+| **Frontend** | HTML, CSS, JavaScript, Bootstrap |
+| **Backend** | Spring, Spring Security, Spring Data JPA, Hibernate |
+| **Database** | MariaDB |
+| **Collaboration** | GitHub |
+
+---
+
+## 주요 기능
+
 - **회원가입**:
   - Spring Security를 사용한 암호화 기능
 
@@ -40,51 +49,27 @@
 
 - **인기 도서 목록**:
   - 빌린 도서 횟수에 따른 책 순위 목록
+ 
+- **패널티 적용**
+  - 반납 예정일이 지나가면 매일 패널티 포인트 1P씩 부과되며 3일차부터는 등차수열을 적용하여 패널티 점수 부과
+  - 패널티 점수가 1P 이상 있을시 연체자로 구분하여 도서 대여 불가
+  - 반납 완료 시 매일 패널티 포인트 1P씩 차감하여 0P 도달시 연체자 해제
+ 
+---
 
-<br/>
-<br/>
-
-# 4. Technology Stack (기술 스택)
-## 4.1 Language
-|  |  
-|-----------------|
-| Java |
-
-<br/>
-
-## 5.2 Framework
-|  |  
-|-----------------|
-| Spring |
-| Bootstrap |
-
-<br/>
-
-## 5.3 Frontend
-|  |  
-|-----------------|
-| HTML |
-| CSS |
-| JavaScript |
-| Bootstrap |
-
-<br/>
-
-## 5.3 Backend
-|  |  
-|-----------------|
-| Spring |
-| Spring Security |
-| Spring Data JPA |
-| Hibernate |
-
-<br/>
-
-## 5.4 Database
-|  |  
-|-----------------|
-| MariaDB |
+## 화면 구성
+| 메인 페이지 | 도서대여 페이지 |
+| ----- | ----- |
+| ![image](https://github.com/user-attachments/assets/08774e5b-3fb9-47cc-a9c6-611dfafc7dc0) | ![image](https://github.com/user-attachments/assets/6c3169dc-ec95-49d3-bba8-bfac6eebc028) |
+| **대여 기록 페이지** | **관리자 페이지** |
+| ![image](https://github.com/user-attachments/assets/b4a0515a-574b-42ac-9c60-428a2692f263) | ![image](https://github.com/user-attachments/assets/d74c2c32-a916-4169-b9cc-9651d3d9a6fd) |
+| **회원 관리 페이지(관리자)** | **도서 관리 페이지(관리자)** |
+| ![image](https://github.com/user-attachments/assets/f92ed058-d98a-4bc1-bd3a-60ed22cb421c) | ![image](https://github.com/user-attachments/assets/7fc3b3eb-4228-44fc-a13d-f39482da9253) |
+| **대여 관리 페이지(관리자)** | |
+| ![image](https://github.com/user-attachments/assets/9bf57f96-94c2-4b6c-890d-4f337621f14b) | |
 
 
-<br/>
-<br/>
+
+
+
+
