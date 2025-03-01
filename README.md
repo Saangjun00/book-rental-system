@@ -68,7 +68,87 @@
 | **대여 관리 페이지(관리자)** | |
 | ![image](https://github.com/user-attachments/assets/9bf57f96-94c2-4b6c-890d-4f337621f14b) | |
 
-
+## 디렉토리 구조
+```bash
+│  .gitattributes
+│  .gitignore
+│  build.gradle
+│  gradlew
+│  gradlew.bat
+│  HELP.md
+│  settings.gradle
+│          
+└─src
+    ├─main
+    │  ├─java
+    │  │  └─com
+    │  │      └─example
+    │  │          └─bookrentalsystem
+    │  │              │  BookRentalSystemApplication.java
+    │  │              │  
+    │  │              ├─config
+    │  │              │      PasswordConfig.java
+    │  │              │      SecurityConfig.java
+    │  │              │      
+    │  │              ├─controller
+    │  │              │      AdminController.java
+    │  │              │      AuthController.java
+    │  │              │      HomeController.java
+    │  │              │      MemberController.java
+    │  │              │      RentalController.java
+    │  │              │      
+    │  │              ├─dto
+    │  │              │      BookRentalDto.java
+    │  │              │      BookRequestDto.java
+    │  │              │      MemberDto.java
+    │  │              │      SignupRequestDto.java
+    │  │              │      
+    │  │              ├─entity
+    │  │              │      Book.java
+    │  │              │      Member.java
+    │  │              │      Rental.java
+    │  │              │      RentState.java
+    │  │              │      Role.java
+    │  │              │      
+    │  │              ├─repository
+    │  │              │      BookRepository.java
+    │  │              │      MemberRepository.java
+    │  │              │      RentalRepository.java
+    │  │              │      
+    │  │              └─service
+    │  │                      BookService.java
+    │  │                      MemberDetailsService.java
+    │  │                      MemberService.java
+    │  │                      RentalService.java
+    │  │                      
+    │  └─resources
+    │      │  application-test.properties
+    │      │  application.properties
+    │      │  
+    │      ├─static
+    │      └─templates
+    │          │  home.html
+    │          │  
+    │          ├─admin
+    │          │      bookList.html
+    │          │      home.html
+    │          │      memberList.html
+    │          │      rentalList.html
+    │          │      
+    │          ├─fragments
+    │          │      footer.html
+    │          │      header.html
+    │          │      
+    │          ├─member
+    │          │      login.html
+    │          │      profile.html
+    │          │      signup.html
+    │          │      
+    │          └─rental
+    │                  history.html
+    │                  rentalBook.html
+```
+                            
 
 
 
